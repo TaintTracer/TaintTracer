@@ -1,0 +1,2 @@
+fetched_apks/* filter=lfs diff=lfs merge=lfs -text
+fetched_apks/*/* filter=lfs diff=lfs merge=lfs -text

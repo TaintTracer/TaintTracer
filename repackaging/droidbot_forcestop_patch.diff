@@ -1,0 +1,15 @@
+diff --git a/droidbot/adapter/adb.py b/droidbot/adapter/adb.py
+index cb6ac55..812ec3e 100644
+--- a/droidbot/adapter/adb.py
++++ b/droidbot/adapter/adb.py
+@@ -62,6 +62,10 @@ class ADB(Adapter):
+ 
+         args = [] + self.cmd_prefix
+         args += extra_args
++        if "force-stop" in args:
++            print("Force stop in args: " + " ".join(args))
++            print("Stopping tracer before executing the requested command")
++            subprocess.call("adb shell su -c killall libtainttracer-executable.so", shell=True)
+ 
+         self.logger.debug('command:')
+         self.logger.debug(args)
