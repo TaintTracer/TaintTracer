@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/src/main/cpp/libs/Catch2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/src/main/cpp/libs/capstone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/src/main/cpp/libs/filesystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/src/main/cpp/libs/fmt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/src/main/cpp/libs/magic_enum" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repackaging/dep/Apktool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repackaging/dep/droidbot" vcs="Git" />
+  </component>
+</project>

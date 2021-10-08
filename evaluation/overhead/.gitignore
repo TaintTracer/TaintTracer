@@ -1,0 +1,5 @@
+a.out
+*.core
+logcat.txt
+results.csv
+app-release/

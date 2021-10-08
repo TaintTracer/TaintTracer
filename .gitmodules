@@ -1,0 +1,18 @@
+[submodule "app/src/main/cpp/libs/capstone"]
+	path = app/src/main/cpp/libs/capstone
+	url = https://github.com/aquynh/capstone.git
+[submodule "app/src/main/cpp/libs/Catch2"]
+	path = app/src/main/cpp/libs/Catch2
+	url = https://github.com/catchorg/Catch2.git
+[submodule "app/src/main/cpp/libs/magic_enum"]
+	path = app/src/main/cpp/libs/magic_enum
+	url = https://github.com/Neargye/magic_enum.git
+[submodule "app/src/main/cpp/libs/filesystem"]
+	path = app/src/main/cpp/libs/filesystem
+	url = https://github.com/gulrak/filesystem.git
+[submodule "app/src/main/cpp/libs/fmt"]
+	path = app/src/main/cpp/libs/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "repackaging/dep/Apktool"]
+	path = repackaging/dep/Apktool
+	url = git://github.com/iBotPeaches/Apktool.git

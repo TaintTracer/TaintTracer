@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestSourceSinkContextActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="This demo assumes a server is running on a hardcoded IP address" />
+
+        <Button
+            android:id="@+id/java_to_java"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Java → Java"
+            />
+
+        <Button
+            android:id="@+id/java_to_native"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Java → Native" />
+
+        <Button
+            android:id="@+id/native_to_java"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Native → Java" />
+
+        <Button
+            android:id="@+id/native_to_native"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Native → Native" />
+
+        <Button
+            android:id="@+id/test"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Run regression tests" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+
+        <Button
+            android:id="@+id/java_benchmark_legacy"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Java code Benchmark (legacy)" />
+
+        <TextView
+            android:id="@+id/java_benchmark_time"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Benchmark time: N/A" />
+
+        <Button
+            android:id="@+id/native_overhead_benchmark"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Native overhead benchmark" />
+
+        <Button
+            android:id="@+id/java_overhead_benchmark"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Java overhead benchmark" />
+
+        <Button
+            android:id="@+id/new_native_overhead_benchmark"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="New native overhead benchmark" />
+
+        <Button
+            android:id="@+id/new_java_overhead_benchmark"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="New java overhead benchmark" />
+
+        <Button
+            android:id="@+id/automated_overhead_benchmark"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Automated overhead benchmark" />
+
+        <Button
+            android:id="@+id/process_gps"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Use GPS location" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

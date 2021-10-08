@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+##
+## Add the debugger to multiple APKs and repackage them
+##
+
+set -eo pipefail
+script_dir="$(dirname "$0")"
+
+# Check system requirements
+for cmd in javac; do
+  if ! [ -x "$(command -v $cmd)" ]; then
+    echo "error: $cmd is not installed" >&2
+    exit 1
+  fi
+done
+
+. ./deps.sh
+
+apktool "$@"
